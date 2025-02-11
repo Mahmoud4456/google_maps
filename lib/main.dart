@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'map_view.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -9,6 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: FlutterMapView(),
+    );
   }
 }
+
