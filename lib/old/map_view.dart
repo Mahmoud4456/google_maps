@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
-import 'package:google_map/services/location_service.dart';
 import 'package:latlong2/latlong.dart';
+
+import 'services/location_service.dart';
 
 class FlutterMapViewLocation extends StatefulWidget {
   const FlutterMapViewLocation({super.key});

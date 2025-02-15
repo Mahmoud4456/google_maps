@@ -2,8 +2,9 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_map/flutter_map.dart';
-import 'package:google_map/model/flutter_map_model.dart';
 import 'package:latlong2/latlong.dart';
+
+import '../model/flutter_map_model.dart';
 
 class FlutterMapViewTest extends StatefulWidget {
   const FlutterMapViewTest({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'map_view.dart';
+import 'google_map_view.dart';
 
 
 void main() {
@@ -11,9 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: FlutterMapViewLocation(),
+    return const MaterialApp(
+      home: GoogleMapView(),
     );
   }
 }
+
+// keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
 
