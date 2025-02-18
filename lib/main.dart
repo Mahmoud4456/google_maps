@@ -17,5 +17,5 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
 
+//https://maps.googleapis.com/maps/api/place/autocomplete/json?input=alex&key=AIzaSyATQST7P3F22EopGBW21Rf2mwB_QDmxjcQ
